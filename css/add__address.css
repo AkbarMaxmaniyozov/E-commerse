@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/*Add address styles*/
+.add__address {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    background: #EDEDED;
+    border-radius: 16px;  
+}
+
+.address__items {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 676px;
+    height: 834px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 95px 382px 95px 382px;
+}
+
+.address__item {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px 8px 32px;
+}
+
+.address__item label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.44px;
+    letter-spacing: -2%;
+    color: rgba(26, 31, 22, 0.5);
+    padding-bottom: 8px;
+}
+
+.address__item input {
+    width: 596px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+    border: 1px solid white;
+}
+
+
+.save__address {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 32px 8px 32px;
+}
+
+.save__address p {
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.3px;
+    color: #141f16;
+}
+
+.add__address__button {
+    margin: 0 40px 8px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 40px;
+    background-color: #141f16;
+    border-radius: 10px;
+}
+
+.add__address__button a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.3px;
+}
+
+.address__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 48px 8px 48px;
+    align-items: center;
+}
+
+.address__bottom a {
+    text-decoration: none;
+    color: #141f16;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+
+.address__bottom a:hover {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease 0s;
+}
+
+.secure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.secure img {
+    margin-right: 8px;
+}
+
+/*Add address styles*/

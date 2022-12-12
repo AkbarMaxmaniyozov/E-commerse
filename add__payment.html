@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Add payment</title>
+            <link rel="stylesheet" href="/css/add__payment.css">
+            <!--https://cdnjs.com/libraries/font-awesome-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        </head>
+        <body>
+            <div class="container">
+                <div class="add__payment">
+                    <div class="select__card">
+                        <h2>Select a Card</h2>
+                        <div class="bank__card">
+                            <img src="/images/check-out/vec-1.png" alt="it">
+                            <a href="/add__payment.html">MasterCard ending in 4242</a>
+                        </div>
+                        <div class="bank__card">
+                            <img src="/images/check-out/vec-1.png" alt="it">
+                            <a href="/add__payment.html">VISA Debit ending in 2894</a>
+                        </div>
+                    </div>
+                    <div class="add__new__card">
+                        <h2>Add a new Card</h2>
+                        <div class="cardholder">
+                            <p id="text__obshee">Cardholder Name</p>
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" placeholder="Akbar Maxmaniuozov">
+                        </div>
+                        <div class="card__number">
+                            <p id="text__obshee">Card number</p>
+                            <div class="card__info">
+                                <img src="/images/check-out/card__icon.png" alt="it">
+                                <label for="card_number"></label>
+                                <input type="text" name="card_number" id="card_number" placeholder="5126-5987-2214-7621">
+                            </div>
+                        </div>
+                        <div class="date__cv">
+                            <div class="card__date">
+                                <p id="text__obshee">Expiry Date</p>
+                                <div class="card__date__info">
+                                    <img src="/images/check-out/date__info.png" alt="it">
+                                    <label for="card__date"></label>
+                                    <input type="date" name="card__date" id="card__date" placeholder="MM / YYYY">
+                                </div>
+                            </div>
+                            <div class="cvc">
+                                <p id="text__obshee">CVC </p>
+                                <label for="cvc"></label>
+                                <input type="text" name="cvc" id="cvc" placeholder="123">
+                            </div>
+                        </div>
+                        <div class="save__card">
+                            <label for="save__card"></label>
+                            <input type="checkbox" name="save__card" id="save__card">
+                            <p>Save this as your default payment method</p>
+                        </div>
+                        <div class="add__payment__button">
+                            <img src="/images/check-out/white__card.png" alt="it">
+                            <a href="/add__payment.html">Add Payment Method</a>
+                        </div>
+                        <div class="payment__bottom">
+                            <a href="/check__out.html">Back</a>
+                            <div class="secure">
+                                <img src="/images/check-out/secure.png" alt="it">
+                                Secure Connection
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>

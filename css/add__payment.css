@@ -1,0 +1,247 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/*Header section*/
+
+.add__payment {
+    margin: 0 auto;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 16px;
+    background-color: #EDEDED;
+}
+
+.select__card {
+    display: flex;
+    flex-direction: column;
+    width: 676px;
+    height: 198px;
+    margin: 68px 382px 32px 382px;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.select__card h2 {
+    margin: 0;
+    padding: 24px 0 16px 24px;
+    font-size: 31.25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #141f16;
+}
+
+.bank__card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 16px 24px 16px 24px;
+    overflow: hidden;
+}
+
+.bank__card img {
+    margin-right: 24px;
+}
+
+.bank__card a {
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.3px;
+    color: darkslategray;
+}
+
+.bank__card a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease 0s;
+    color: blue;
+}
+
+.add__new__card {
+    display: flex;
+    flex-direction: column;
+    width: 676px;
+    height: 658px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.add__new__card h2 {
+    margin: 0;
+    padding: 32px 32px 24px 32px;
+    font-size: 31.25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #141f16;
+}
+
+.cardholder {
+    padding: 8px 32px 8px 32px;
+}
+
+.text__obshee {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: rgba(26, 31, 22, 0.5);
+}
+
+.cardholder input {
+    width: 596px;
+    height: 56px;
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border: 1px solid white;
+}
+
+.card__number {
+    padding: 8px 32px 8px 32px;   
+}
+
+.card__number .card__info {
+    display: flex;
+    align-items: center;
+    width: 596px;
+    height: 56px;
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border: 1px solid white;
+}
+
+.card__info input {
+    width: 540px;
+    height: 48px;
+    border: 1px solid white;
+}
+
+.date__cv {
+    display: flex;
+    padding: 8px 32px 8px 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card__date {
+    padding: 8px 8px 8px 32px;
+}
+
+.card__date__info {
+    display: flex;
+    align-items: center;
+    width: 186px;
+    height: 56px;
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border: 1px solid white;
+}
+
+.card__date__info img {
+    margin-left: 8px;
+}
+
+.card__date input {
+    width: 480px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+.cvc {
+    padding: 8px 8px 8px 32px;
+}
+
+.cvc input {
+    width: 141px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 13px;
+    background-color: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+}
+
+.save__card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 32px 8px 32px;
+}
+
+.save__card p {
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.3px;
+    color: #141f16;
+}
+
+.add__payment__button {
+    margin: 0 40px 8px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 40px;
+    background-color: #141f16;
+    border-radius: 10px;
+}
+
+.add__payment__button a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.3px;
+}
+
+.payment__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 48px 8px 48px;
+    align-items: center;
+}
+
+.payment__bottom a {
+    text-decoration: none;
+    color: #141f16;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+
+.payment__bottom a:hover {
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease 0s;
+}
+
+.secure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.secure img {
+    margin-right: 8px;
+}
